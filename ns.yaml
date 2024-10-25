@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: name-sc
+  labels:
+    namespace: qa
+  annotations:
+    name: for sample
+spec:
+  containers:
+    - name: we
+      image: nginx
+      ports:
+        containerPort: 80      
